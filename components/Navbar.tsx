@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -20,7 +19,7 @@ const Navbar = () => {
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 h-20 flex items-center">
+    <nav className="fixed w-full top-0 z-50 bg-white border-b border-gray-100 h-20 flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="flex justify-between items-center h-full">
           {/* Logo */}
