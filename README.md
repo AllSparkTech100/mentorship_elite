@@ -69,4 +69,4 @@ The application is built using **React** and **Tailwind CSS**, emphasizing a mob
 
 ---
 
-© 2024 Mentorship Pro. Empowering the next generation of global leaders.
+© 2026 Mentorship Pro. Empowering the next generation of global leaders.
