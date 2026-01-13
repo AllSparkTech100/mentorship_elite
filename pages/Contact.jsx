@@ -1,7 +1,7 @@
 import React from 'react';
 import { Mail, MapPin, Clock, Send, Linkedin, Twitter, Instagram } from 'lucide-react';
 
-const Contact = () => {
+function Contact ()  {
   return (
     <div className="bg-white min-h-screen pt-16 pb-24 px-4 sm:px-6 lg:px-8 animate-in">
       <div className="max-w-7xl mx-auto">

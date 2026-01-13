@@ -17,19 +17,19 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <button className="w-full sm:w-auto px-8 py-4 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all shadow-xl shadow-blue-200 active:scale-95">
-                Get Started
+                <a href="">  Get Started</a>
               </button>
               <button className="w-full sm:w-auto px-8 py-4 bg-white text-slate-800 border border-slate-200 rounded-xl font-bold hover:bg-slate-50 transition-all active:scale-95">
-                Explore Programs
+                <a href="/programs">Explore Programs</a>
               </button>
             </div>
           </div>
-          
+
           <div className="flex-1 relative w-full mt-12 lg:mt-0">
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl max-w-lg mx-auto lg:max-w-none">
-              <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop" 
-                alt="Mentorship Session" 
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop"
+                alt="Mentorship Session"
                 className="w-full h-auto object-cover aspect-[4/5] lg:aspect-auto"
               />
             </div>
